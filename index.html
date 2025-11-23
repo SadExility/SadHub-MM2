@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso Negado</title>
+
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #ff4444;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .box {
+            padding: 20px;
+            border: 2px solid #ff4444;
+            border-radius: 10px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Você não tem permissão para acessar esse código.</h2>
+    </div>
+
+    <!-- Arquivo falso (disfarce) -->
+    <script src="LPJJTXT.txt" class="hidden"></script>
+
+    <!-- SCRIPT REAL escondido usando o link RAW -->
+    <pre class="hidden">
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SadExility/DirtUiBackup/refs/heads/main/555737638"))()
+    </pre>
+
+</body>
+</html>
